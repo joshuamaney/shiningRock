@@ -248,6 +248,17 @@ a {
   font-size: 30px;
 }
 
+/* Contact Modal */
+
+.modal-content {
+  background-color: #E5E7EB;
+  opacity: 85%;
+  color: rgb(11, 32, 39);
+}
+
+.modal-body {
+  background-image: url('./images/image1.jpg');
+}
 /* footer */
 
 footer {
