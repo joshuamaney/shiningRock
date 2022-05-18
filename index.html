@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,38 +21,14 @@
             <a href="./about.html">
             <button class="button-53" id="button1" role="button">ABOUT</button></a>
             <button class="button-53" id="button2" role="button">SHOP</button>
-            <button class="button-53" id="button3"
+            <button class="turned button button-53" id="button3"
             data-bs-toggle="modal" data-bs-target="#staticBackdrop" role="button" >CONTACT</button>
+            
           </div>
         </nav>
       </div>
     </div>
   </div>
-
-    <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="button2">CONTACT US</h5>
-      </div>
-      <div class="modal-body">
-        <div id="contactForm">
-          <form class="contact-form" action="contactform.php" method="post">
-            <input type="text" name="name" placeholder="YOUR NAME">
-            <input type="text" name="mail" placeholder="YOUR EMAIL">
-            <input type="text" name="subject" placeholder="SUBJECT">
-            <textarea name="message" placeholder="MESSAGE"></textarea>
-            <button type="submit" name="submit">SEND</button>
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="button-53" id="button1" data-bs-dismiss="modal">CLOSE</button>
-      </div>
-    </div>
-  </div>
-</div>
 
     <!-- Social Media -->
   <div class="icon-bar">
@@ -65,9 +42,52 @@
     <p>© SHINING ROCK SOAP 2022</p>
   </footer>
 
+    <!-- Contact Modal -->
+  <div id="staticBackdrop" class="modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="button2">CONTACT US</h5>
+        </div>
+        <form method="post" id="contactFrm">
+        <div class="modal-body">
+          <div id="contactForm">
+           <!-- Form submission status -->
+           <div class="response"></div>
+        
+           <!-- Contact form -->
+           <div class="form-group">
+               <label>Name:</label>
+               <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+           </div>
+           <div class="form-group">
+               <label>Email:</label>
+               <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required="">
+           </div>
+           <div class="form-group">
+               <label>Message:</label>
+               <textarea name="message" id="message" class="form-control" placeholder="Your message here" rows="6"></textarea>
+               <button type="submit" class="btn btn-primary">Submit</button>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-53" id="button1" data-bs-dismiss="modal">CLOSE</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+
 </body>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-    <script src="./assets/main.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
 </html>
