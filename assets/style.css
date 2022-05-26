@@ -199,10 +199,10 @@ a {
 }
 
 #shopImage {
-  opacity: 78%;
+  opacity: 80%;
   display: flex;
   position: relative;
-  background-image: url("./images/soapZoomBG.png");
+  background-image: url("./images/shopBG1.png");
   background-position: center;
   background-size: cover;
   margin-top: 3em;
@@ -213,6 +213,7 @@ a {
 #shopContainer {
   margin-top: 33px;
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
@@ -220,7 +221,6 @@ a {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  min-width: 500px;
   max-width: 500px;
   margin: auto;
   margin-top: 18px;
