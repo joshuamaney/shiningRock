@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('#contactFrm').submit(function(e){
         e.preventDefault();
         $('.modal-body').css('opacity', '0.5');
-        $('.btn').prop('disabled', true);
+        $('#contactSubmit').prop('disabled', true);
         
         $form = $(this);
         $.ajax({
@@ -18,7 +18,7 @@ $(document).ready(function(){
                     $('.response').html('<div class="alert alert-danger">'+response.message+'</div>');
                 }
                 $('.modal-body').css('opacity', '');
-                $('.btn').prop('disabled', false);
+                $('#contactSubmit').prop('disabled', false);
             }
         });
     });
@@ -28,7 +28,7 @@ $(document).ready(function(){
 var modal = $('#modalDialog');
 
 // Get the button that opens the modal
-var btn = $("#mbtn");
+// var btn = $("#mbtn");
 
 // Get the <span> element that closes the modal
 var span = $(".close");

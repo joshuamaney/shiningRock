@@ -91,6 +91,10 @@ a {
   touch-action: manipulation;
 }
 
+.button-54 {
+  opacity: 100;
+  background-color: rgb(11, 32, 39);
+}
 #button1 {
   transform: rotate(-1.3deg);
 }
@@ -245,16 +249,15 @@ a {
   font-size: 30px;
 }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /* Contact Modal */
-
 .modal-content {
-  background-color: #E5E7EB;
+  background-color: hsl(220, 13%, 91%);
   color: rgb(11, 32, 39);
 }
+  
 
 .modal-body {
   background-image: url('./images/image1.jpg');
-  background-size: cover;
+        background-size: cover;
     background-color: #E5E7EB;
     opacity: 65%;
     display: flex;
@@ -264,7 +267,21 @@ a {
     background-repeat: no-repeat;
 }
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /* footer */
+#contactSubmit {
+  opacity: 100%;
+}
+
+#contactForm {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  align-content: space-between;
+  opacity: 100%;
+  width: 80%
+}
 
 footer {
   background-color: transparent;
