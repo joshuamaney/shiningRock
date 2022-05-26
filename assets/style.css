@@ -226,6 +226,7 @@ a {
   margin-top: 18px;
   text-align: center;
   font-family: arial;
+  align-items: center;
 }
 
 .price {
@@ -241,7 +242,7 @@ a {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  /* width: 100%; */
   font-size: 18px;
 }
 
