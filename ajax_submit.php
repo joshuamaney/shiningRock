@@ -33,13 +33,13 @@ if(isset($_POST['contact_submit'])){
             $sendEmail = mail($toEmail, $emailSubject, $htmlContent, $headers); 
             if($sendEmail){ 
                 $status = 1; 
-                $statusMsg = 'Thanks! Your contact request has been submitted successfully.'; 
+                $statusMsg = 'Thanks! Your contact request has been submitted successfully!'; 
             }else{ 
                 $statusMsg = 'Failed! Your contact request submission failed, please try again.'; 
             } 
         } 
     }else{ 
-        $statusMsg = 'Please fill in all the mandatory fields.'; 
+        $statusMsg = 'Please complete all fields.'; 
     } 
 } 
  
