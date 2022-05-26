@@ -152,7 +152,7 @@ a {
 #aboutImage {
   display: flex;
   position: relative;
-  background-image: url("./images/brochureBG.png");
+  background-image: url("./images/brochureBackground.png");
   background-position: center;
   background-size: cover;
   margin-top: 3em;
